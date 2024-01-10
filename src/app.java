@@ -11,7 +11,7 @@ public class app {
 
       //   System.out.println("Mi nombre es " + name + " " + surname);
 
-   System.out.println("Ejercicio 2");
+/*   System.out.println("Ejercicio 2");
 
    int x, y, z; 
 
@@ -31,17 +31,32 @@ public class app {
    z = number.nextInt();
    System.out.println("The number is: " + z);
 
-   if(x > y){
-      if(x > z){
-         System.out.println("El valor más grande es el de: " + x);
+   // int[] numbers = {x, y, z};
+
+   int max = Math.max(x, y);
+   if( max == x){
+      System.out.println("el numero mayor hasta ahora es: " + x);
+      if(max < z){
+         System.out.println("El numero mayor ahora es: " + z );
       }else{
-         System.out.println("El valor de " + x + " es más grande que el de " + y + " pero más chico que el de " + z);
+         System.out.println("El mayor sigue siendo "+ x);
       }
-   }else if(x < y){
-      if(x )
+   }else{
+      System.out.println("El numero mayor hasta ahora es: " + y);
+      if(max < z){
+         System.out.println("El numero mayor ahoar es: " + z);
+      }else{
+         System.out.println("El mayor sigue siendo Y que vale: "+ y);
+      }
    }
+*/ 
 
    System.out.println("Ejercicio 3");
+
+   
+
+
+
    System.out.println("Ejercicio 4");
    System.out.println("Ejercicio 5");
    System.out.println("Ejercicio 6");
