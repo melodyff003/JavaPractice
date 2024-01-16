@@ -50,11 +50,28 @@ public class app {
       }
    }
 */ 
+  /*  System.out.println("Ejercicio 3");
 
-   System.out.println("Ejercicio 3");
+   System.out.println("Ingrese una palabra: ");
+   Scanner palabra = new Scanner(System.in);
 
-   
+   String cadenaUno = palabra.nextLine();
+   System.out.println("Ingrese otra palabra: ");
 
+   String cadenaDos = palabra.nextLine();
+
+   palabra.close();
+
+   if(cadenaUno.equals(cadenaDos)){ //en este caso es mejor usar equals porque el mismo analiza que las variables guarden los mismos datos, no el mismo objeto 
+      System.out.println("Las strings son iguales.");
+   }else{
+      System.out.println("Las strings NO son iguales.");
+      System.out.println(cadenaDos);
+      System.out.println(cadenaUno);
+
+   }
+
+   */
 
 
    System.out.println("Ejercicio 4");
